@@ -1,0 +1,21 @@
+[
+    {
+        "intent": "java_definition",
+        "answer": "Java is a high-level, object-oriented programming language used to build applications.",
+        "keywords": [
+            "java",
+            "what is java",
+            "java language",
+            "define java"
+        ]
+    },
+    {
+        "intent": "spring_boot_definition",
+        "answer": "Spring Boot simplifies building Java applications with minimal configuration.",
+        "keywords": [
+            "spring boot",
+            "what is spring boot",
+            "spring boot framework"
+        ]
+    }
+]
