@@ -1,7 +1,110 @@
 [
     {
+        "intent": "programming_definition",
+        "answer": "Programming is the process of creating instructions for computers to execute tasks using programming languages.",
+        "keywords": [
+            "programming",
+            "what is programming",
+            "define programming",
+            "coding"
+        ]
+    },
+    {
+        "intent": "algorithm_definition",
+        "answer": "An algorithm is a step-by-step procedure or set of rules designed to solve a specific problem or perform a computation.",
+        "keywords": [
+            "algorithm",
+            "what is algorithm",
+            "define algorithm",
+            "algorithmic approach"
+        ]
+    },
+    {
+        "intent": "variable_definition",
+        "answer": "A variable is a named storage location in memory that holds a value which can change during program execution.",
+        "keywords": [
+            "variable",
+            "what is variable",
+            "programming variable",
+            "define variable"
+        ]
+    },
+    {
+        "intent": "function_definition",
+        "answer": "A function is a reusable block of code that performs a specific task and can accept inputs and return outputs.",
+        "keywords": [
+            "function",
+            "what is function",
+            "define function",
+            "method",
+            "what is method"
+        ]
+    },
+    {
+        "intent": "loop_definition",
+        "answer": "A loop is a programming construct that repeats a block of code multiple times until a specified condition is met.",
+        "keywords": [
+            "loop",
+            "what is loop",
+            "define loop",
+            "iteration",
+            "looping"
+        ]
+    },
+    {
+        "intent": "conditional_statement_definition",
+        "answer": "A conditional statement is a programming construct that executes different code blocks based on whether a condition is true or false.",
+        "keywords": [
+            "conditional statement",
+            "if statement",
+            "what is conditional",
+            "condition",
+            "if else"
+        ]
+    },
+    {
+        "intent": "debugging_definition",
+        "answer": "Debugging is the process of identifying, analyzing, and removing errors or bugs from computer programs.",
+        "keywords": [
+            "debugging",
+            "what is debugging",
+            "debug",
+            "bug fixing"
+        ]
+    },
+    {
+        "intent": "compiler_definition",
+        "answer": "A compiler is a program that translates source code written in a high-level programming language into machine code or executable form.",
+        "keywords": [
+            "compiler",
+            "what is compiler",
+            "define compiler",
+            "compilation"
+        ]
+    },
+    {
+        "intent": "interpreter_definition",
+        "answer": "An interpreter is a program that directly executes code line by line without requiring prior compilation into machine code.",
+        "keywords": [
+            "interpreter",
+            "what is interpreter",
+            "define interpreter",
+            "interpretation"
+        ]
+    },
+    {
+        "intent": "syntax_definition",
+        "answer": "Syntax refers to the set of rules that define the structure and valid combinations of symbols in a programming language.",
+        "keywords": [
+            "syntax",
+            "what is syntax",
+            "programming syntax",
+            "syntax rules"
+        ]
+    },
+    {
         "intent": "java_definition",
-        "answer": "Java is a high-level, object-oriented programming language used to build applications.",
+        "answer": "Java is a high-level, object-oriented programming language designed to be platform-independent and used to build various types of applications.",
         "keywords": [
             "java",
             "what is java",
@@ -10,12 +113,1331 @@
         ]
     },
     {
+        "intent": "jvm_definition",
+        "answer": "JVM (Java Virtual Machine) is an abstract computing machine that enables computers to run Java programs by converting bytecode into machine-specific code.",
+        "keywords": [
+            "jvm",
+            "what is jvm",
+            "java virtual machine",
+            "define jvm"
+        ]
+    },
+    {
+        "intent": "jdk_definition",
+        "answer": "JDK (Java Development Kit) is a software development environment that includes tools for developing, debugging, and running Java applications.",
+        "keywords": [
+            "jdk",
+            "what is jdk",
+            "java development kit",
+            "define jdk"
+        ]
+    },
+    {
+        "intent": "jre_definition",
+        "answer": "JRE (Java Runtime Environment) provides the libraries and JVM needed to run Java applications but does not include development tools.",
+        "keywords": [
+            "jre",
+            "what is jre",
+            "java runtime environment",
+            "define jre"
+        ]
+    },
+    {
+        "intent": "oop_java_definition",
+        "answer": "Object-Oriented Programming (OOP) in Java is a programming paradigm based on objects that contain data and methods, emphasizing concepts like encapsulation, inheritance, polymorphism, and abstraction.",
+        "keywords": [
+            "oop",
+            "object oriented programming",
+            "what is oop",
+            "oop in java",
+            "define oop"
+        ]
+    },
+    {
+        "intent": "class_definition",
+        "answer": "A class is a blueprint or template for creating objects that defines attributes (data) and methods (behavior) that the objects will have.",
+        "keywords": [
+            "class",
+            "what is class",
+            "define class",
+            "class in programming",
+            "java class"
+        ]
+    },
+    {
+        "intent": "object_definition",
+        "answer": "An object is an instance of a class that contains actual values for the attributes and can perform actions defined by the class methods.",
+        "keywords": [
+            "object",
+            "what is object",
+            "define object",
+            "object in programming",
+            "java object"
+        ]
+    },
+    {
+        "intent": "inheritance_definition",
+        "answer": "Inheritance is an OOP concept where a class (child/subclass) derives properties and methods from another class (parent/superclass), promoting code reusability.",
+        "keywords": [
+            "inheritance",
+            "what is inheritance",
+            "java inheritance",
+            "define inheritance"
+        ]
+    },
+    {
+        "intent": "polymorphism_definition",
+        "answer": "Polymorphism allows objects of different classes to be treated as objects of a common parent class and enables methods to perform different tasks based on the object calling them.",
+        "keywords": [
+            "polymorphism",
+            "what is polymorphism",
+            "define polymorphism",
+            "java polymorphism"
+        ]
+    },
+    {
+        "intent": "encapsulation_definition",
+        "answer": "Encapsulation is the bundling of data and methods within a class while restricting direct access to some components using access modifiers like private, public, and protected.",
+        "keywords": [
+            "encapsulation",
+            "what is encapsulation",
+            "define encapsulation",
+            "data hiding"
+        ]
+    },
+    {
+        "intent": "abstraction_definition",
+        "answer": "Abstraction is the concept of hiding complex implementation details and showing only essential features of an object, achieved through abstract classes and interfaces.",
+        "keywords": [
+            "abstraction",
+            "what is abstraction",
+            "define abstraction",
+            "abstract class"
+        ]
+    },
+    {
+        "intent": "interface_definition",
+        "answer": "An interface is a contract in Java that defines a set of abstract methods that implementing classes must provide, supporting multiple inheritance and abstraction.",
+        "keywords": [
+            "interface",
+            "what is interface",
+            "java interface",
+            "define interface"
+        ]
+    },
+    {
+        "intent": "exception_handling_definition",
+        "answer": "Exception handling is a mechanism to handle runtime errors gracefully using try, catch, finally, throw, and throws keywords to maintain normal program flow.",
+        "keywords": [
+            "exception handling",
+            "what is exception handling",
+            "java exceptions",
+            "try catch"
+        ]
+    },
+    {
+        "intent": "multithreading_definition",
+        "answer": "Multithreading is the concurrent execution of multiple threads within a single process, allowing efficient utilization of CPU resources and improved performance.",
+        "keywords": [
+            "multithreading",
+            "what is multithreading",
+            "thread",
+            "concurrent execution",
+            "java thread"
+        ]
+    },
+    {
+        "intent": "constructor_definition",
+        "answer": "A constructor is a special method in a class that is automatically called when an object is created, used to initialize the object's attributes.",
+        "keywords": [
+            "constructor",
+            "what is constructor",
+            "java constructor",
+            "define constructor"
+        ]
+    },
+    {
         "intent": "spring_boot_definition",
-        "answer": "Spring Boot simplifies building Java applications with minimal configuration.",
+        "answer": "Spring Boot is an extension of the Spring Framework that simplifies building production-ready Java applications with minimal configuration and embedded servers.",
         "keywords": [
             "spring boot",
             "what is spring boot",
-            "spring boot framework"
+            "spring boot framework",
+            "define spring boot"
+        ]
+    },
+    {
+        "intent": "spring_framework_definition",
+        "answer": "Spring Framework is a comprehensive Java framework that provides infrastructure support for developing enterprise applications with features like dependency injection and aspect-oriented programming.",
+        "keywords": [
+            "spring framework",
+            "what is spring framework",
+            "spring",
+            "define spring"
+        ]
+    },
+    {
+        "intent": "dependency_injection_definition",
+        "answer": "Dependency Injection is a design pattern where objects receive their dependencies from external sources rather than creating them, promoting loose coupling and testability.",
+        "keywords": [
+            "dependency injection",
+            "what is dependency injection",
+            "DI",
+            "define dependency injection"
+        ]
+    },
+    {
+        "intent": "ioc_definition",
+        "answer": "IoC (Inversion of Control) is a principle where the control of object creation and lifecycle is transferred from the application code to a framework or container.",
+        "keywords": [
+            "ioc",
+            "inversion of control",
+            "what is ioc",
+            "define ioc"
+        ]
+    },
+    {
+        "intent": "rest_api_spring_definition",
+        "answer": "REST API in Spring Boot is a web service that follows REST architectural principles, allowing communication between client and server using HTTP methods.",
+        "keywords": [
+            "rest api",
+            "what is rest api",
+            "restful api",
+            "spring boot rest"
+        ]
+    },
+    {
+        "intent": "annotation_definition",
+        "answer": "An annotation is a form of metadata that provides information about the program but is not part of the program itself, used extensively in Java frameworks like Spring.",
+        "keywords": [
+            "annotation",
+            "what is annotation",
+            "java annotation",
+            "define annotation"
+        ]
+    },
+    {
+        "intent": "data_structure_definition",
+        "answer": "A data structure is a specialized format for organizing, storing, and managing data efficiently to enable effective access and modification.",
+        "keywords": [
+            "data structure",
+            "what is data structure",
+            "define data structure",
+            "ds"
+        ]
+    },
+    {
+        "intent": "array_definition",
+        "answer": "An array is a collection of elements of the same data type stored in contiguous memory locations, accessed using an index.",
+        "keywords": [
+            "array",
+            "what is array",
+            "define array",
+            "array data structure"
+        ]
+    },
+    {
+        "intent": "linked_list_definition",
+        "answer": "A linked list is a linear data structure where elements (nodes) are connected using pointers, with each node containing data and a reference to the next node.",
+        "keywords": [
+            "linked list",
+            "what is linked list",
+            "define linked list",
+            "linkedlist"
+        ]
+    },
+    {
+        "intent": "stack_definition",
+        "answer": "A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle, where elements are added and removed from the same end called the top.",
+        "keywords": [
+            "stack",
+            "what is stack",
+            "define stack",
+            "stack data structure",
+            "lifo"
+        ]
+    },
+    {
+        "intent": "queue_definition",
+        "answer": "A queue is a linear data structure that follows the First-In-First-Out (FIFO) principle, where elements are added at the rear and removed from the front.",
+        "keywords": [
+            "queue",
+            "what is queue",
+            "define queue",
+            "queue data structure",
+            "fifo"
+        ]
+    },
+    {
+        "intent": "tree_definition",
+        "answer": "A tree is a hierarchical data structure consisting of nodes connected by edges, with a root node at the top and child nodes branching below.",
+        "keywords": [
+            "tree",
+            "what is tree",
+            "define tree",
+            "tree data structure"
+        ]
+    },
+    {
+        "intent": "binary_tree_definition",
+        "answer": "A binary tree is a tree data structure where each node has at most two children, referred to as the left child and right child.",
+        "keywords": [
+            "binary tree",
+            "what is binary tree",
+            "define binary tree",
+            "binary tree structure"
+        ]
+    },
+    {
+        "intent": "graph_definition",
+        "answer": "A graph is a non-linear data structure consisting of vertices (nodes) connected by edges, used to represent relationships between objects.",
+        "keywords": [
+            "graph",
+            "what is graph",
+            "define graph",
+            "graph data structure"
+        ]
+    },
+    {
+        "intent": "hashing_definition",
+        "answer": "Hashing is a technique that maps data of arbitrary size to fixed-size values using a hash function, enabling fast data retrieval and storage.",
+        "keywords": [
+            "hashing",
+            "what is hashing",
+            "hash function",
+            "define hashing"
+        ]
+    },
+    {
+        "intent": "time_complexity_definition",
+        "answer": "Time complexity is a measure of the amount of time an algorithm takes to complete as a function of the input size, typically expressed using Big O notation.",
+        "keywords": [
+            "time complexity",
+            "what is time complexity",
+            "define time complexity",
+            "algorithm complexity"
+        ]
+    },
+    {
+        "intent": "space_complexity_definition",
+        "answer": "Space complexity is a measure of the amount of memory an algorithm uses as a function of the input size, including both auxiliary space and input space.",
+        "keywords": [
+            "space complexity",
+            "what is space complexity",
+            "define space complexity",
+            "memory complexity"
+        ]
+    },
+    {
+        "intent": "big_o_notation_definition",
+        "answer": "Big O notation is a mathematical notation used to describe the upper bound of an algorithm's time or space complexity in terms of input size.",
+        "keywords": [
+            "big o",
+            "big o notation",
+            "what is big o",
+            "define big o",
+            "o notation"
+        ]
+    },
+    {
+        "intent": "recursion_definition",
+        "answer": "Recursion is a programming technique where a function calls itself to solve a problem by breaking it down into smaller subproblems of the same type.",
+        "keywords": [
+            "recursion",
+            "what is recursion",
+            "recursive function",
+            "define recursion"
+        ]
+    },
+    {
+        "intent": "sorting_definition",
+        "answer": "Sorting is the process of arranging elements in a specific order (ascending or descending) using algorithms like bubble sort, merge sort, and quick sort.",
+        "keywords": [
+            "sorting",
+            "what is sorting",
+            "sort algorithm",
+            "define sorting"
+        ]
+    },
+    {
+        "intent": "searching_definition",
+        "answer": "Searching is the process of finding a specific element in a data structure using algorithms like linear search and binary search.",
+        "keywords": [
+            "searching",
+            "what is searching",
+            "search algorithm",
+            "define searching"
+        ]
+    },
+    {
+        "intent": "dbms_definition",
+        "answer": "DBMS (Database Management System) is software that enables users to create, manage, and manipulate databases efficiently while ensuring data security and integrity.",
+        "keywords": [
+            "dbms",
+            "what is dbms",
+            "database management system",
+            "define dbms"
+        ]
+    },
+    {
+        "intent": "database_definition",
+        "answer": "A database is an organized collection of structured data stored electronically, designed for efficient storage, retrieval, and management.",
+        "keywords": [
+            "database",
+            "what is database",
+            "define database",
+            "db"
+        ]
+    },
+    {
+        "intent": "rdbms_definition",
+        "answer": "RDBMS (Relational Database Management System) is a type of DBMS that stores data in tables with rows and columns, using SQL for data manipulation.",
+        "keywords": [
+            "rdbms",
+            "what is rdbms",
+            "relational database",
+            "define rdbms"
+        ]
+    },
+    {
+        "intent": "table_definition",
+        "answer": "A table is a collection of related data organized in rows and columns within a database, where each row represents a record and each column represents an attribute.",
+        "keywords": [
+            "table",
+            "what is table",
+            "database table",
+            "define table"
+        ]
+    },
+    {
+        "intent": "primary_key_definition",
+        "answer": "A primary key is a unique identifier for each record in a database table that ensures no duplicate or null values exist for that column.",
+        "keywords": [
+            "primary key",
+            "what is primary key",
+            "define primary key",
+            "pk"
+        ]
+    },
+    {
+        "intent": "foreign_key_definition",
+        "answer": "A foreign key is a column or set of columns in one table that references the primary key of another table, establishing a relationship between the two tables.",
+        "keywords": [
+            "foreign key",
+            "what is foreign key",
+            "define foreign key",
+            "fk"
+        ]
+    },
+    {
+        "intent": "normalization_definition",
+        "answer": "Normalization is the process of organizing database tables to reduce redundancy and dependency by dividing large tables into smaller, related tables.",
+        "keywords": [
+            "normalization",
+            "what is normalization",
+            "database normalization",
+            "define normalization"
+        ]
+    },
+    {
+        "intent": "transaction_definition",
+        "answer": "A transaction is a sequence of database operations that are executed as a single unit of work, ensuring data consistency and integrity.",
+        "keywords": [
+            "transaction",
+            "what is transaction",
+            "database transaction",
+            "define transaction"
+        ]
+    },
+    {
+        "intent": "acid_properties_definition",
+        "answer": "ACID properties (Atomicity, Consistency, Isolation, Durability) are a set of principles that guarantee reliable processing of database transactions.",
+        "keywords": [
+            "acid properties",
+            "what is acid",
+            "acid in dbms",
+            "define acid"
+        ]
+    },
+    {
+        "intent": "indexing_definition",
+        "answer": "Indexing is a database optimization technique that creates a data structure to improve the speed of data retrieval operations on a table.",
+        "keywords": [
+            "indexing",
+            "what is indexing",
+            "database index",
+            "define indexing"
+        ]
+    },
+    {
+        "intent": "join_definition",
+        "answer": "A join is a SQL operation that combines rows from two or more tables based on a related column, enabling retrieval of data from multiple tables.",
+        "keywords": [
+            "join",
+            "what is join",
+            "sql join",
+            "define join",
+            "database join"
+        ]
+    },
+    {
+        "intent": "view_definition",
+        "answer": "A view is a virtual table in a database that is based on the result of a SQL query, providing a way to simplify complex queries and enhance security.",
+        "keywords": [
+            "view",
+            "what is view",
+            "database view",
+            "define view",
+            "sql view"
+        ]
+    },
+    {
+        "intent": "sql_definition",
+        "answer": "SQL (Structured Query Language) is a standardized programming language used to manage and manipulate relational databases through queries and commands.",
+        "keywords": [
+            "sql",
+            "what is sql",
+            "structured query language",
+            "define sql"
+        ]
+    },
+    {
+        "intent": "query_definition",
+        "answer": "A query is a request for data or information from a database, typically written in SQL to retrieve, insert, update, or delete data.",
+        "keywords": [
+            "query",
+            "what is query",
+            "database query",
+            "sql query",
+            "define query"
+        ]
+    },
+    {
+        "intent": "select_statement_definition",
+        "answer": "SELECT statement is a SQL command used to retrieve data from one or more tables in a database, specifying which columns and rows to return.",
+        "keywords": [
+            "select",
+            "select statement",
+            "what is select",
+            "sql select"
+        ]
+    },
+    {
+        "intent": "where_clause_definition",
+        "answer": "WHERE clause is a SQL component used to filter records based on specified conditions, returning only rows that meet the criteria.",
+        "keywords": [
+            "where clause",
+            "what is where",
+            "sql where",
+            "where condition"
+        ]
+    },
+    {
+        "intent": "group_by_definition",
+        "answer": "GROUP BY is a SQL clause that groups rows with the same values in specified columns, often used with aggregate functions like COUNT, SUM, and AVG.",
+        "keywords": [
+            "group by",
+            "what is group by",
+            "sql group by",
+            "group by clause"
+        ]
+    },
+    {
+        "intent": "having_clause_definition",
+        "answer": "HAVING clause is a SQL component used to filter grouped records based on aggregate function results, similar to WHERE but applied after grouping.",
+        "keywords": [
+            "having clause",
+            "what is having",
+            "sql having",
+            "having condition"
+        ]
+    },
+    {
+        "intent": "order_by_definition",
+        "answer": "ORDER BY is a SQL clause used to sort the result set in ascending or descending order based on one or more columns.",
+        "keywords": [
+            "order by",
+            "what is order by",
+            "sql order by",
+            "sort results"
+        ]
+    },
+    {
+        "intent": "subquery_definition",
+        "answer": "A subquery is a query nested inside another SQL query, used to provide data to the outer query and enable complex data retrieval operations.",
+        "keywords": [
+            "subquery",
+            "what is subquery",
+            "nested query",
+            "sql subquery"
+        ]
+    },
+    {
+        "intent": "ddl_definition",
+        "answer": "DDL (Data Definition Language) is a subset of SQL used to define and modify database structures, including CREATE, ALTER, DROP, and TRUNCATE commands.",
+        "keywords": [
+            "ddl",
+            "data definition language",
+            "what is ddl",
+            "define ddl"
+        ]
+    },
+    {
+        "intent": "dml_definition",
+        "answer": "DML (Data Manipulation Language) is a subset of SQL used to manipulate data within tables, including SELECT, INSERT, UPDATE, and DELETE commands.",
+        "keywords": [
+            "dml",
+            "data manipulation language",
+            "what is dml",
+            "define dml"
+        ]
+    },
+    {
+        "intent": "dcl_definition",
+        "answer": "DCL (Data Control Language) is a subset of SQL used to control access to data in the database, including GRANT and REVOKE commands.",
+        "keywords": [
+            "dcl",
+            "data control language",
+            "what is dcl",
+            "define dcl"
+        ]
+    },
+    {
+        "intent": "tcl_definition",
+        "answer": "TCL (Transaction Control Language) is a subset of SQL used to manage transactions in the database, including COMMIT, ROLLBACK, and SAVEPOINT commands.",
+        "keywords": [
+            "tcl",
+            "transaction control language",
+            "what is tcl",
+            "define tcl"
+        ]
+    },
+    {
+        "intent": "mongodb_definition",
+        "answer": "MongoDB is a popular NoSQL database that stores data in flexible, JSON-like documents, providing high performance, scalability, and flexibility.",
+        "keywords": [
+            "mongodb",
+            "what is mongodb",
+            "define mongodb",
+            "mongo db"
+        ]
+    },
+    {
+        "intent": "nosql_definition",
+        "answer": "NoSQL is a type of database that provides a mechanism for storage and retrieval of data modeled in ways other than tabular relations, designed for distributed data stores.",
+        "keywords": [
+            "nosql",
+            "what is nosql",
+            "define nosql",
+            "no sql"
+        ]
+    },
+    {
+        "intent": "document_definition",
+        "answer": "A document in MongoDB is a record stored in BSON format (similar to JSON) that contains field-value pairs, serving as the basic unit of data.",
+        "keywords": [
+            "document",
+            "what is document",
+            "mongodb document",
+            "define document"
+        ]
+    },
+    {
+        "intent": "collection_definition",
+        "answer": "A collection in MongoDB is a group of documents, similar to a table in relational databases, but without a fixed schema.",
+        "keywords": [
+            "collection",
+            "what is collection",
+            "mongodb collection",
+            "define collection"
+        ]
+    },
+    {
+        "intent": "bson_definition",
+        "answer": "BSON (Binary JSON) is a binary-encoded serialization format used by MongoDB to store documents and make remote procedure calls, extending JSON with additional data types.",
+        "keywords": [
+            "bson",
+            "what is bson",
+            "binary json",
+            "define bson"
+        ]
+    },
+    {
+        "intent": "schema_less_definition",
+        "answer": "A schema-less database is a database that does not require a predefined structure for data, allowing documents in the same collection to have different fields.",
+        "keywords": [
+            "schema less",
+            "schemaless",
+            "what is schema less",
+            "schema-less database"
+        ]
+    },
+    {
+        "intent": "replication_mongodb_definition",
+        "answer": "Replication in MongoDB is the process of synchronizing data across multiple servers to ensure data availability, redundancy, and fault tolerance.",
+        "keywords": [
+            "replication",
+            "what is replication",
+            "mongodb replication",
+            "define replication"
+        ]
+    },
+    {
+        "intent": "sharding_definition",
+        "answer": "Sharding is a method of distributing data across multiple machines in MongoDB, enabling horizontal scaling by partitioning large datasets.",
+        "keywords": [
+            "sharding",
+            "what is sharding",
+            "mongodb sharding",
+            "define sharding"
+        ]
+    },
+    {
+        "intent": "api_definition",
+        "answer": "An API (Application Programming Interface) is a set of rules and protocols that allows different software applications to communicate and interact with each other.",
+        "keywords": [
+            "api",
+            "what is api",
+            "application programming interface",
+            "define api"
+        ]
+    },
+    {
+        "intent": "rest_api_definition",
+        "answer": "REST API (Representational State Transfer) is an architectural style for designing networked applications using HTTP requests to access and manipulate data.",
+        "keywords": [
+            "rest api",
+            "what is rest api",
+            "restful api",
+            "define rest api"
+        ]
+    },
+    {
+        "intent": "restful_webservices_definition",
+        "answer": "RESTful web services are web services that follow REST architectural principles, using standard HTTP methods and stateless communication between client and server.",
+        "keywords": [
+            "restful web services",
+            "what is restful",
+            "rest web services",
+            "restful services"
+        ]
+    },
+    {
+        "intent": "http_methods_definition",
+        "answer": "HTTP methods are standard operations used in REST APIs including GET (retrieve data), POST (create data), PUT (update data), and DELETE (remove data).",
+        "keywords": [
+            "http methods",
+            "what is http methods",
+            "get post put delete",
+            "rest methods"
+        ]
+    },
+    {
+        "intent": "json_definition",
+        "answer": "JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate.",
+        "keywords": [
+            "json",
+            "what is json",
+            "javascript object notation",
+            "define json"
+        ]
+    },
+    {
+        "intent": "xml_definition",
+        "answer": "XML (Extensible Markup Language) is a markup language that defines rules for encoding documents in a format that is both human-readable and machine-readable.",
+        "keywords": [
+            "xml",
+            "what is xml",
+            "extensible markup language",
+            "define xml"
+        ]
+    },
+    {
+        "intent": "api_endpoint_definition",
+        "answer": "An API endpoint is a specific URL where an API can access the resources it needs, serving as a communication point between the client and server.",
+        "keywords": [
+            "api endpoint",
+            "what is endpoint",
+            "endpoint",
+            "define endpoint"
+        ]
+    },
+    {
+        "intent": "soap_definition",
+        "answer": "SOAP (Simple Object Access Protocol) is a protocol for exchanging structured information in web services using XML-based messaging.",
+        "keywords": [
+            "soap",
+            "what is soap",
+            "simple object access protocol",
+            "define soap"
+        ]
+    },
+    {
+        "intent": "http_definition",
+        "answer": "HTTP (Hypertext Transfer Protocol) is an application-layer protocol used for transmitting hypermedia documents and enabling communication between web browsers and servers.",
+        "keywords": [
+            "http",
+            "what is http",
+            "hypertext transfer protocol",
+            "define http"
+        ]
+    },
+    {
+        "intent": "https_definition",
+        "answer": "HTTPS (HTTP Secure) is an extension of HTTP that uses encryption (SSL/TLS) to secure communication between client and server, protecting data from eavesdropping.",
+        "keywords": [
+            "https",
+            "what is https",
+            "http secure",
+            "define https",
+            "secure http"
+        ]
+    },
+    {
+        "intent": "http_request_definition",
+        "answer": "An HTTP request is a message sent by a client to a server to request access to a resource, containing method, headers, and optionally a body.",
+        "keywords": [
+            "http request",
+            "what is http request",
+            "request",
+            "define http request"
+        ]
+    },
+    {
+        "intent": "http_response_definition",
+        "answer": "An HTTP response is a message sent by a server back to the client in response to an HTTP request, containing status code, headers, and optionally a body.",
+        "keywords": [
+            "http response",
+            "what is http response",
+            "response",
+            "define http response"
+        ]
+    },
+    {
+        "intent": "status_code_definition",
+        "answer": "A status code is a three-digit number returned by a server in an HTTP response indicating the result of the request, such as 200 (OK), 404 (Not Found), or 500 (Server Error).",
+        "keywords": [
+            "status code",
+            "what is status code",
+            "http status code",
+            "response code"
+        ]
+    },
+    {
+        "intent": "cookie_definition",
+        "answer": "A cookie is a small piece of data stored on the user's browser by a website, used to remember information about the user such as login status or preferences.",
+        "keywords": [
+            "cookie",
+            "what is cookie",
+            "http cookie",
+            "web cookie",
+            "define cookie"
+        ]
+    },
+    {
+        "intent": "session_definition",
+        "answer": "A session is a temporary interaction between a user and a web application, maintained on the server side to store user-specific data across multiple requests.",
+        "keywords": [
+            "session",
+            "what is session",
+            "web session",
+            "user session",
+            "define session"
+        ]
+    },
+    {
+        "intent": "http_header_definition",
+        "answer": "HTTP headers are key-value pairs sent in HTTP requests and responses that provide additional information about the request or response, such as content type or authentication.",
+        "keywords": [
+            "http header",
+            "what is http header",
+            "header",
+            "define header"
+        ]
+    },
+    {
+        "intent": "get_method_definition",
+        "answer": "GET method is an HTTP request method used to retrieve data from a server without modifying it, with parameters typically sent in the URL.",
+        "keywords": [
+            "get method",
+            "what is get",
+            "http get",
+            "get request"
+        ]
+    },
+    {
+        "intent": "post_method_definition",
+        "answer": "POST method is an HTTP request method used to send data to a server to create or update a resource, with data sent in the request body.",
+        "keywords": [
+            "post method",
+            "what is post",
+            "http post",
+            "post request"
+        ]
+    },
+    {
+        "intent": "c_definition",
+        "answer": "C is a general-purpose, procedural programming language developed in 1972, known for its efficiency and close-to-hardware capabilities, widely used in system programming.",
+        "keywords": [
+            "c",
+            "what is c",
+            "c language",
+            "c programming",
+            "define c"
+        ]
+    },
+    {
+        "intent": "pointer_definition",
+        "answer": "A pointer is a variable in C that stores the memory address of another variable, enabling direct memory manipulation and efficient data structure implementations.",
+        "keywords": [
+            "pointer",
+            "what is pointer",
+            "c pointer",
+            "define pointer"
+        ]
+    },
+    {
+        "intent": "memory_allocation_definition",
+        "answer": "Memory allocation is the process of assigning memory space to variables during program execution, either statically at compile time or dynamically at runtime using functions like malloc.",
+        "keywords": [
+            "memory allocation",
+            "what is memory allocation",
+            "dynamic memory",
+            "malloc"
+        ]
+    },
+    {
+        "intent": "structure_definition",
+        "answer": "A structure in C is a user-defined data type that groups variables of different data types under a single name, enabling organized data representation.",
+        "keywords": [
+            "structure",
+            "what is structure",
+            "struct",
+            "c structure",
+            "define structure"
+        ]
+    },
+    {
+        "intent": "array_c_definition",
+        "answer": "An array in C is a collection of elements of the same data type stored in contiguous memory locations, accessed using an index starting from 0.",
+        "keywords": [
+            "array in c",
+            "c array",
+            "what is array",
+            "array c programming"
+        ]
+    },
+    {
+        "intent": "function_c_definition",
+        "answer": "A function in C is a block of reusable code that performs a specific task, can accept parameters, and may return a value to the caller.",
+        "keywords": [
+            "function in c",
+            "c function",
+            "what is function",
+            "c programming function"
+        ]
+    },
+    {
+        "intent": "preprocessor_directive_definition",
+        "answer": "A preprocessor directive is a command in C that begins with # and is processed before compilation, used for file inclusion, macro definition, and conditional compilation.",
+        "keywords": [
+            "preprocessor directive",
+            "what is preprocessor",
+            "preprocessor",
+            "define preprocessor"
+        ]
+    },
+    {
+        "intent": "header_file_definition",
+        "answer": "A header file is a file in C with .h extension that contains function declarations, macro definitions, and data types, included in programs using the #include directive.",
+        "keywords": [
+            "header file",
+            "what is header file",
+            "h file",
+            "define header file"
+        ]
+    },
+    {
+        "intent": "cpp_definition",
+        "answer": "C++ is a general-purpose, object-oriented programming language that extends C with features like classes, inheritance, polymorphism, and templates.",
+        "keywords": [
+            "c++",
+            "cpp",
+            "what is c++",
+            "c plus plus",
+            "define c++"
+        ]
+    },
+    {
+        "intent": "oop_cpp_definition",
+        "answer": "OOP in C++ is a programming paradigm based on objects and classes, implementing concepts like encapsulation, inheritance, polymorphism, and abstraction.",
+        "keywords": [
+            "oop in c++",
+            "object oriented c++",
+            "what is oop cpp",
+            "c++ oop"
+        ]
+    },
+    {
+        "intent": "class_cpp_definition",
+        "answer": "A class in C++ is a user-defined data type that serves as a blueprint for creating objects, encapsulating data members and member functions.",
+        "keywords": [
+            "class in c++",
+            "cpp class",
+            "what is class cpp",
+            "c++ class"
+        ]
+    },
+    {
+        "intent": "constructor_cpp_definition",
+        "answer": "A constructor in C++ is a special member function with the same name as the class that is automatically called when an object is created to initialize its data members.",
+        "keywords": [
+            "constructor in c++",
+            "cpp constructor",
+            "what is constructor cpp",
+            "c++ constructor"
+        ]
+    },
+    {
+        "intent": "destructor_definition",
+        "answer": "A destructor in C++ is a special member function with the same name as the class preceded by a tilde (~) that is automatically called when an object is destroyed to release resources.",
+        "keywords": [
+            "destructor",
+            "what is destructor",
+            "cpp destructor",
+            "c++ destructor"
+        ]
+    },
+    {
+        "intent": "operator_overloading_definition",
+        "answer": "Operator overloading in C++ is a feature that allows operators to be redefined and used with user-defined data types, providing custom behavior for standard operators.",
+        "keywords": [
+            "operator overloading",
+            "what is operator overloading",
+            "cpp operator overloading",
+            "overloading"
+        ]
+    },
+    {
+        "intent": "stl_definition",
+        "answer": "STL (Standard Template Library) is a powerful library in C++ that provides common data structures and algorithms through templates, including containers, iterators, and algorithms.",
+        "keywords": [
+            "stl",
+            "standard template library",
+            "what is stl",
+            "cpp stl",
+            "define stl"
+        ]
+    },
+    {
+        "intent": "virtual_function_definition",
+        "answer": "A virtual function in C++ is a member function declared with the virtual keyword that can be overridden in derived classes, enabling runtime polymorphism.",
+        "keywords": [
+            "virtual function",
+            "what is virtual function",
+            "cpp virtual",
+            "c++ virtual function"
+        ]
+    },
+    {
+        "intent": "friend_function_definition",
+        "answer": "A friend function in C++ is a function that is not a member of a class but has access to its private and protected members, declared using the friend keyword.",
+        "keywords": [
+            "friend function",
+            "what is friend function",
+            "cpp friend",
+            "c++ friend function"
+        ]
+    },
+    {
+        "intent": "computer_network_definition",
+        "answer": "A computer network is a collection of interconnected devices that can communicate and share resources with each other through wired or wireless connections.",
+        "keywords": [
+            "computer network",
+            "what is computer network",
+            "network",
+            "define network"
+        ]
+    },
+    {
+        "intent": "internet_definition",
+        "answer": "The Internet is a global network of interconnected computer networks that use standard protocols to connect billions of devices worldwide, enabling information exchange.",
+        "keywords": [
+            "internet",
+            "what is internet",
+            "the internet",
+            "define internet"
+        ]
+    },
+    {
+        "intent": "ip_address_definition",
+        "answer": "An IP address (Internet Protocol address) is a unique numerical identifier assigned to each device on a network, used for routing data packets to their destination.",
+        "keywords": [
+            "ip address",
+            "what is ip address",
+            "ip",
+            "internet protocol address"
+        ]
+    },
+    {
+        "intent": "mac_address_definition",
+        "answer": "A MAC address (Media Access Control address) is a unique hardware identifier assigned to network interface cards by manufacturers, used for communication within a local network.",
+        "keywords": [
+            "mac address",
+            "what is mac address",
+            "mac",
+            "media access control"
+        ]
+    },
+    {
+        "intent": "dns_definition",
+        "answer": "DNS (Domain Name System) is a hierarchical naming system that translates human-readable domain names (like google.com) into IP addresses that computers use to identify each other.",
+        "keywords": [
+            "dns",
+            "domain name system",
+            "what is dns",
+            "define dns"
+        ]
+    },
+    {
+        "intent": "osi_model_definition",
+        "answer": "The OSI model (Open Systems Interconnection) is a conceptual framework with seven layers that standardizes network communication functions, from physical transmission to application-level processes.",
+        "keywords": [
+            "osi model",
+            "what is osi model",
+            "osi",
+            "seven layer model"
+        ]
+    },
+    {
+        "intent": "tcp_ip_model_definition",
+        "answer": "The TCP/IP model is a four-layer networking framework that describes how data should be packetized, addressed, transmitted, routed, and received on the Internet.",
+        "keywords": [
+            "tcp ip model",
+            "what is tcp ip",
+            "tcp/ip",
+            "tcp ip"
+        ]
+    },
+    {
+        "intent": "router_definition",
+        "answer": "A router is a networking device that forwards data packets between computer networks, directing traffic based on IP addresses to ensure data reaches its destination.",
+        "keywords": [
+            "router",
+            "what is router",
+            "network router",
+            "define router"
+        ]
+    },
+    {
+        "intent": "switch_definition",
+        "answer": "A switch is a networking device that connects devices within a local network and uses MAC addresses to forward data only to the intended recipient device.",
+        "keywords": [
+            "switch",
+            "what is switch",
+            "network switch",
+            "define switch"
+        ]
+    },
+    {
+        "intent": "protocol_definition",
+        "answer": "A protocol is a set of rules and standards that define how data is transmitted and received over a network, ensuring devices can communicate effectively.",
+        "keywords": [
+            "protocol",
+            "what is protocol",
+            "network protocol",
+            "define protocol"
+        ]
+    },
+    {
+        "intent": "bandwidth_definition",
+        "answer": "Bandwidth is the maximum rate at which data can be transferred over a network connection in a given time period, typically measured in bits per second (bps).",
+        "keywords": [
+            "bandwidth",
+            "what is bandwidth",
+            "network bandwidth",
+            "define bandwidth"
+        ]
+    },
+    {
+        "intent": "latency_definition",
+        "answer": "Latency is the time delay between sending a data packet and receiving it at its destination, typically measured in milliseconds, affecting network responsiveness.",
+        "keywords": [
+            "latency",
+            "what is latency",
+            "network latency",
+            "delay"
+        ]
+    },
+    {
+        "intent": "lan_wan_man_definition",
+        "answer": "LAN (Local Area Network) covers a small geographic area, WAN (Wide Area Network) spans large distances, and MAN (Metropolitan Area Network) covers a city-sized area.",
+        "keywords": [
+            "lan",
+            "wan",
+            "man",
+            "what is lan wan man",
+            "network types"
+        ]
+    },
+    {
+        "intent": "subnet_definition",
+        "answer": "A subnet is a logical subdivision of an IP network that divides a larger network into smaller, manageable segments for improved performance and security.",
+        "keywords": [
+            "subnet",
+            "what is subnet",
+            "subnetting",
+            "define subnet"
+        ]
+    },
+    {
+        "intent": "firewall_definition",
+        "answer": "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules, protecting networks from unauthorized access.",
+        "keywords": [
+            "firewall",
+            "what is firewall",
+            "network firewall",
+            "define firewall"
+        ]
+    },
+    {
+        "intent": "operating_system_definition",
+        "answer": "An operating system is system software that manages computer hardware and software resources and provides common services for application programs.",
+        "keywords": [
+            "operating system",
+            "what is operating system",
+            "os",
+            "define os"
+        ]
+    },
+    {
+        "intent": "process_definition",
+        "answer": "A process is an instance of a program in execution, containing program code, current activity, and allocated system resources like memory and CPU time.",
+        "keywords": [
+            "process",
+            "what is process",
+            "os process",
+            "define process"
+        ]
+    },
+    {
+        "intent": "thread_definition",
+        "answer": "A thread is the smallest unit of execution within a process, allowing multiple operations to run concurrently while sharing the same memory space.",
+        "keywords": [
+            "thread",
+            "what is thread",
+            "os thread",
+            "define thread"
+        ]
+    },
+    {
+        "intent": "multitasking_definition",
+        "answer": "Multitasking is the ability of an operating system to execute multiple tasks or processes concurrently by rapidly switching between them, giving the illusion of simultaneous execution.",
+        "keywords": [
+            "multitasking",
+            "what is multitasking",
+            "concurrent execution",
+            "define multitasking"
+        ]
+    },
+    {
+        "intent": "virtual_memory_definition",
+        "answer": "Virtual memory is a memory management technique that uses hard disk space as an extension of RAM, allowing systems to run larger programs than physical memory would permit.",
+        "keywords": [
+            "virtual memory",
+            "what is virtual memory",
+            "vm",
+            "define virtual memory"
+        ]
+    },
+    {
+        "intent": "paging_definition",
+        "answer": "Paging is a memory management scheme that divides memory into fixed-size blocks called pages, allowing non-contiguous memory allocation and efficient memory usage.",
+        "keywords": [
+            "paging",
+            "what is paging",
+            "memory paging",
+            "define paging"
+        ]
+    },
+    {
+        "intent": "segmentation_definition",
+        "answer": "Segmentation is a memory management technique that divides memory into variable-sized segments based on logical divisions of a program, such as code, data, and stack.",
+        "keywords": [
+            "segmentation",
+            "what is segmentation",
+            "memory segmentation",
+            "define segmentation"
+        ]
+    },
+    {
+        "intent": "deadlock_definition",
+        "answer": "Deadlock is a situation in operating systems where two or more processes are unable to proceed because each is waiting for resources held by the other.",
+        "keywords": [
+            "deadlock",
+            "what is deadlock",
+            "os deadlock",
+            "define deadlock"
+        ]
+    },
+    {
+        "intent": "scheduling_definition",
+        "answer": "Scheduling is the process by which an operating system determines which process or thread should use the CPU at any given time, using algorithms to optimize performance.",
+        "keywords": [
+            "scheduling",
+            "what is scheduling",
+            "cpu scheduling",
+            "process scheduling"
+        ]
+    },
+    {
+        "intent": "kernel_definition",
+        "answer": "The kernel is the core component of an operating system that manages system resources, provides hardware abstraction, and facilitates communication between hardware and software.",
+        "keywords": [
+            "kernel",
+            "what is kernel",
+            "os kernel",
+            "define kernel"
+        ]
+    },
+    {
+        "intent": "system_call_definition",
+        "answer": "A system call is a programmatic interface through which a program requests services from the operating system kernel, such as file operations or process management.",
+        "keywords": [
+            "system call",
+            "what is system call",
+            "syscall",
+            "define system call"
+        ]
+    },
+    {
+        "intent": "file_system_definition",
+        "answer": "A file system is a method and data structure that an operating system uses to organize, store, retrieve, and manage files on storage devices.",
+        "keywords": [
+            "file system",
+            "what is file system",
+            "filesystem",
+            "define file system"
+        ]
+    },
+    {
+        "intent": "semaphore_definition",
+        "answer": "A semaphore is a synchronization primitive used in operating systems to control access to shared resources and coordinate processes, preventing race conditions.",
+        "keywords": [
+            "semaphore",
+            "what is semaphore",
+            "os semaphore",
+            "define semaphore"
+        ]
+    },
+    {
+        "intent": "mutual_exclusion_definition",
+        "answer": "Mutual exclusion is a concurrency control principle that ensures only one process can access a critical section or shared resource at a time, preventing conflicts.",
+        "keywords": [
+            "mutual exclusion",
+            "what is mutual exclusion",
+            "mutex",
+            "define mutual exclusion"
         ]
     }
 ]
