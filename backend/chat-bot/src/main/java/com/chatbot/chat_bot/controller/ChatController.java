@@ -6,11 +6,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.chatbot.chat_bot.model.ChatRequest;
 import com.chatbot.chat_bot.service.ChatService;
 
 @RestController
 @RequestMapping("/api/chat")
-@CrossOrigin(origins = "http://localhost:5173") // React Vite
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:5174"}) // React Vite
 
 public class ChatController {
     private final ChatService chatService;
@@ -20,7 +21,8 @@ public class ChatController {
     }
 
     @PostMapping
-    public String chat(@RequestBody String message) {
+    public String chat(@RequestBody ChatRequest request) {
+        String message = request.getMessage();
         return chatService.getResponse(message);
     }
 }

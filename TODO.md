@@ -1,0 +1,2 @@
+- [x] Update ChatService.java: Remove session-related methods and dependencies, simplify getResponse to take only message
+- [x] Update ChatController.java: Change the call to chatService.getResponse(message) without sessionId
