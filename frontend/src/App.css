@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+div[class*="status"],
+span[class*="status"],
+.server-status {
+    display: none !important;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

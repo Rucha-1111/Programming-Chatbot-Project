@@ -39,12 +39,9 @@ function App() {
       {/* MAIN CONTENT */}
       <div className="flex-1 flex flex-col relative min-w-0">
         {/* Header */}
-        <header className="py-4 px-6 bg-black/80 backdrop-blur-md border-b border-zinc-800 flex justify-between items-center z-10">
+        <header className="py-4 px-6 bg-black/80 backdrop-blur-md border-b border-zinc-800 flex justify-center items-center z-10">
           <div className="flex items-center gap-4">
             <h1 className="text-lg font-semibold text-white tracking-tight">Knowledge<span className="text-blue-500">Bot</span></h1>
-          </div>
-          <div className="flex items-center gap-2 text-[10px] text-zinc-500 font-mono">
-            <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span> SERVER LIVE
           </div>
         </header>
 
