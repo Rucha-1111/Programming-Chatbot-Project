@@ -51,45 +51,6 @@ The application follows a **client–server architecture**.
 
 ---
 
-## 🗂️ Project Structure
-
-ChatBot-Project/
-│
-├── backend/
-│   └── chat-bot/
-│       ├── src/main/java/com/chatbot/chat_bot/
-│       │   ├── ChatBotApplication.java
-│       │   ├── controller/
-│       │   │   └── ChatController.java
-│       │   ├── service/
-│       │   │   └── ChatService.java
-│       │   ├── nlp/
-│       │   │   └── NLPProcessor.java
-│       │   └── model/
-│       │       ├── ChatRequest.java
-│       │       └── KnowledgeBaseEntry.java
-│       │
-│       ├── src/main/resources/
-│       │   ├── knowledge_base.json
-│       │   └── application.properties
-│       │
-│       └── pom.xml
-│
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx
-│   │   ├── api.js
-│   │   ├── main.jsx
-│   │   └── index.css
-│   │
-│   ├── tailwind.config.js
-│   └── package.json
-│
-├── README.md
-└── TODO.md
-
----
-
 ## 🔧 Backend – Detailed Breakdown
 
 ### `ChatBotApplication.java`
